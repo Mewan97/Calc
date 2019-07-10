@@ -5,7 +5,8 @@ public class Calculator{
 
 	public static void main(String[] args){
 		Calculator c = new Calculator();
-		Calculator.Adder add1 = c.new Adder(2.5,3);
+		c.new Adder(2.5,3);
+		c.new Subtractor(2.5,3);
 
 	}
 
