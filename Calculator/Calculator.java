@@ -7,6 +7,8 @@ public class Calculator{
 		Calculator c = new Calculator();
 		c.new Adder(2.5,3);
 		c.new Subtractor(2.5,3);
+		c.new Divider(9.6,3);
+		c.new Multiplier(3,3);
 
 	}
 
